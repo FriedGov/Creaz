@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_challenge"
+            android:icon="@drawable/ic_trofee_gold_24dp"
+            android:title="@string/title_weekly_challenge" />
+
+        <item
+            android:id="@+id/nav_ranks"
+            android:icon="@drawable/ic_award_black_24dp"
+            android:title="@string/title_ranks"/>
+
+        <item
+            android:id="@+id/nav_diy"
+            android:icon="@drawable/ic_library_books"
+            android:title="@string/title_diys" />
+
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_favorite_color_accent"
+            android:title="@string/title_favorites" />
+
+        <item
+            android:id="@+id/nav_subscribers"
+            android:icon="@drawable/ic_people_"
+            android:title="@string/title_subscribers" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/title_profile" />
+
+        <item
+            android:id="@+id/nav_dev"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/title_dev" />
+
+    </group>
+</menu>

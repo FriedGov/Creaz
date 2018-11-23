@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name" translatable="false">CreazApp</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <!-- menu -->
+    <string name="action_settings">Settings</string>
+    <string name="action_sign_out">Sign out</string>
+    <string name="action_register">Register</string>
+    <string name="action_add">Add</string>
+
+
+    <string name="label_new_diy">Create new +DiY</string>
+    <string name="done">action_done</string>
+    <string name="diy_content_description">image of Do It Yourself</string>
+    <string name="contact">Contact</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_activity">Hello blank activity</string>
+    <string name="content_description_chevron_left">go to previous page</string>
+    <string name="content_description_chevron_right">go to next page</string>
+    <string name="content_description_do_it_yourself_image">image of DIY-tutorial</string>
+    <string name="label_description">Description</string>
+    <string name="hint_diy_description">write your description for the DIY tutorial here</string>
+    <string name="action_delete">Delete</string>
+    <string name="error_cannot_delete">Cannot delete anymore items.</string>
+    <string name="label_login">Login</string>
+    <string name="content_description_create_diy">user selected image of a DIY project.</string>
+    <string name="error_no_image_selected">No image selected.</string>
+    <string name="hint">hint</string>
+    <string name="content_description_rating_star">rating stars</string>
+    <string name="content_desctiption_favorite_button">hart shaped favorite button.</string>
+    <string name="action_search">search</string>
+    <string name="action_edit">edit</string>
+    <string name="hint_diy_title">DIY Title</string>
+    <string name="hint_edit_title">click to edit title</string>
+    <string name="error_required_field">required field.</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="action_account">Account</string>
+    <string name="edit_description">Edit Description....</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="category_all">All</string>
+    <string name="category_home">Home</string>
+    <string name="category_beauty">Beauty</string>
+    <string name="category_home_garden_kitchen">Home Garden and Kitchen</string>
+    <string name="category_school">School</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_diys" translatable="false">DIY\'s</string>
+    <string name="dialog_choose_image_source">Take image from camera or Gallery?</string>
+    <string name="camera">camera</string>
+    <string name="cancel">Cancel</string>
+    <string name="dialog_title_select_category">Select category for your DIY.</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_dev">Developer</string>
+    <string name="title_subscribers">Subscribers</string>
+    <string name="title_weekly_challenge">Weekly Challenge</string>
+    <string name="content_description_profile_picture">user profile picture</string>
+    <string name="title_ranks">Ranks</string>
+    <string name="enter_first_name">Voer uw voor en- achternaam in</string>
+    <string name="first_name">First naem</string>
+    <string name="creaz_logo">Creaz logo</string>
+    <string name="hint_repeat_password">Repeat password</string>
+    <string name="error_required">Required!</string>
+    <string name="error_password_mismatch">passwords needs to be the same!</string>
+    <string name="try_again">Try again</string>
+    <string name="error_profile_creation">Failed to create profile</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="birth_date">Birth date</string>
+    <string name="error_password">between 6 and 12 alphanumeric characters</string>
+    <string name="error_email">enter valid email address</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="no_account_yet">No account yet? <u>Create one</u>.</string>
+</resources>

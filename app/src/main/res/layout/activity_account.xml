@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nl.ehi2vsd5.hboict.creazapp.view.activity.AccountActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Profiel afbeelding"
+            android:textColor="@color/colorIconDark"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:orientation="horizontal"
+            android:layout_weight="0.14"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/account_profile_image"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.51"
+                app:srcCompat="@drawable/ic_person_black_24dp" />
+
+            <ImageView
+                android:id="@+id/account_folder"
+                android:layout_width="wrap_content"
+                android:layout_height="72dp"
+                android:layout_weight="0.26"
+                app:srcCompat="@drawable/ic_folder_black_24dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account gegevens"
+            android:textColor="@color/colorIconDark"
+            android:textSize="24sp"
+            android:layout_weight="0.13" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nieuwe gebruiksnaam"
+            android:textSize="18sp"
+            android:layout_weight="0.15" />
+
+        <EditText
+            android:id="@+id/account_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:text="Voer uw nieuw gebruiksnaam in" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Huidige wachtwoord"
+            android:textSize="18sp"
+            android:layout_weight="0.15" />
+
+        <EditText
+            android:id="@+id/account_old_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nieuwe wachtwoord"
+            android:textSize="18sp"
+            android:layout_weight="0.21" />
+
+        <EditText
+            android:id="@+id/account_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nieuwe wachtwoord herhalen"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="18sp"
+            android:layout_weight="0.19" />
+
+        <EditText
+            android:id="@+id/account_password_re"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/account_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Veranderingen Opslaan" />
+
+    </LinearLayout>
+</RelativeLayout>
